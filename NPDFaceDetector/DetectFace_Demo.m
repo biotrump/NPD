@@ -2,6 +2,7 @@ close all; clear; clc;
 
 modelFile = 'model_frontal.mat';
 imgFile = 'lena.jpg';
+%imgFile = 'sisters.bmp';
 
 load(modelFile, 'npdModel');
 
